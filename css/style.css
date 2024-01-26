@@ -1,0 +1,800 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
+
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Be Vietnam Pro";
+  text-decoration: none;
+  font-style: normal;
+  list-style: none;
+}
+
+/*HEADER*/
+
+#NavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 65px 50px;
+}
+
+#Logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  margin: 0px 0px;
+}
+
+#Selecciones {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px 0px;
+}
+
+ul.Lista {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  list-style: none;
+}
+
+a.Sports{
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #242e52;
+  margin: 0px 28px;
+}
+
+a.Product {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 176.1%;
+  display: flex;
+  align-items: center;
+  color: #242e52;  
+  margin: 0px 28px;
+}
+
+a.AboutUs {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 176.1%;
+  display: flex;
+  align-items: center;
+  color: #242e52;
+  margin: 0px 28px;
+}
+
+a.Careers {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 176.1%;
+  display: flex;
+  align-items: center;
+  color: #242e52;
+  margin: 0px 28px;
+}
+
+a.Community {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 176.1%;
+  display: flex;
+  align-items: center;
+  color: #242e52;
+  margin: 0px 28px;
+}
+
+.Boton1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 100px;
+  height: 40px;
+  background: #8B48BF;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  order: 2;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+p.Contact1{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+/*////////////////// MAIN /////////////////*/
+
+#Home {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#HomePrincipal {
+  display: flex;
+  flex-direction: column;
+}
+
+h1.H1 {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 66px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.035em;
+  width: 439px;
+  color: #232c50;
+  margin: 28px 10px;
+}
+
+p.Texto1 {
+  font-weight: 500;
+  font-size: 16.5584px;
+  line-height: 157.1%;
+  display: flex;
+  align-items: center;
+  color: #000;
+  margin: 28px 0px;
+  width: 350px;
+  height: 71px;
+  top: 226px;
+}
+
+.Boton2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #8B48BF;
+  box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+  border-radius: 50px;
+  order: 2;
+  margin: 28px 0px;
+  width: 134px;
+  height: 44px;
+  top: 325px;
+}
+
+p.Contact2 {
+  font-weight: 500;
+  font-size: 13.1806px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+#HomeIzquierda {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #8B48BF;
+  padding: 40px 0px;
+  width: 100%;
+  height: 100%;
+}
+
+h2.Subtitulo {
+  justify-content: center;  
+  font-size: 35px;
+  line-height: 114.6%;
+  color: #FFFFFF;
+  margin: 36px 0px;
+}
+
+p.Texto2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  width: 490px;
+  height: 88px;
+  top: 124px;
+  line-height: 151.1%;
+  color: #FFFFFF;
+  margin: 36px 0px;
+}
+
+#Trabajo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 40px 0px;  
+ 
+}
+
+.TackAvand {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.T1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 23px;
+  width: 100%;
+  height: 100%;
+}
+
+.div1 {
+  height: 100%;
+  width: 100%;
+  color: blue;
+}
+
+.Uno1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 25px;
+  width: 69px;
+  height: 43px;
+  background: #8B48BF;
+  border-radius: 30px;
+  color: white;
+  font-size: 20px;
+}
+
+.Titulo1{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;   
+  color: #323851;
+}
+
+.Texto3 {
+  width: 300px;
+  font-weight: 500;
+  font-size: 16.2984px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #B3B2B7;
+}
+
+#Testimonios {
+  display: flex;
+  flex-direction: column;
+  padding: 90px 0px;
+}
+
+#TituloT {
+  font-weight: 700;
+  font-size: 39.2143px;
+  line-height: 156.6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #242e53;
+}
+
+#SectionTestimonio {
+  display: flex;
+  flex-direction: row;
+  padding: 59px 0px;
+}
+
+article.Personaje1 {
+  text-align: center;
+  align-content: center;
+}
+
+#Persona1 {
+  font-weight: 700;
+  font-size: 16.0714px;
+  line-height: 156.6%;
+  color: #3f4868;
+  order: 1;
+  margin: 21px 0px;
+  text-align: center;
+}
+
+p.DescripcionPersona1 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 156.6%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #b9b9c1;
+  order: 2;
+  margin: 21px 0px;
+}
+
+article.Personaje2 {
+  text-align: center;
+  align-content: center;
+}
+
+p.DescripcionPersona2 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 156.6%;
+  color: #b9b9c1;
+  order: 2; 
+  margin: 21px 0px;
+}
+
+article.Personaje3 {
+  text-align: center;
+  align-content: center;
+}
+
+p.DescripcionPersona3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 156.6%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #b9b9c1;
+  order: 2;
+  margin: 21px 0px;
+}
+
+#Bt6 {
+  display: flex;
+  justify-content: center;  
+}
+
+#Boton6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 134px;
+  height: 44px;  
+  background: #8B48BF;
+  box-shadow: 0px 4px 8px rgba(243, 96, 59, 0.5);
+  border-radius: 50px;
+}
+
+p.Boton6 {
+  font-weight: 500;
+  font-size: 13.1806px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  order: 0;
+  margin: 0px 10px;
+}
+
+#ParteInferior {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 224px;
+  left: 0px;
+  top: 0px;
+  background: #8B48BF;
+  
+}
+
+h3.ParteTitulo {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  width: 438px;
+  height: 96px;
+}
+
+#Boton7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: #8B48BF;;
+  background: #ffffff;
+  margin-right: 40px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  width: 134px;
+}
+
+/*///// FOOTER //////7///*/
+
+#Footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 190px;
+  left: 0px;
+  top: 2392px;
+  background: #1e1e26;
+
+}
+
+#Logo3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 140.68px;
+  height: 25px;
+  left: 50px;
+  top: 2080px;
+}
+
+#Redes {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 13px;
+  position: absolute;
+  width: 153.89px;
+  height: 22.05px;
+  left: 50px;
+  top: 2160px;
+}
+
+#Navegacion {
+  display: flex;
+  gap: 150px;
+  position: absolute;
+  height: 141.14px;
+  left: 25%;
+}
+
+.Lista2 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 125px;
+  height: 150px;
+}
+
+.Lista3 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 125px;
+  height: 150px;
+
+}
+
+a.HomeF {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;  
+  margin: 12px 0px;
+}
+
+a.Pricing2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #ffffff; 
+  margin: 12px 0px;
+}
+
+a.Product2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin: 12px 0px;
+}
+
+a.AboutUs2 {
+  width: 200px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin: 12px 0px;
+}
+
+a.Trainning2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin: 12px 0px;
+}
+
+a.Community2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin: 12px 0px;
+}
+
+a.Privacy2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #ffffff; 
+}
+
+#Buscador {
+  display: flex;
+  gap: 9px;
+  position: absolute;
+  height: 48.52px;
+  left: 65%;
+  top: 2070px;  
+}
+
+.Buscar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 10px;
+  width: 350px;
+  height: 44px;
+  background: #FFFFFF;
+  border-radius: 50px;
+}
+
+.OkBus {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 63px;
+  height: 42px;
+  background: #8B48BF;
+  border-radius: 50px;
+  color: #FFFFFF;
+}
+
+#Copy {
+  position: absolute;
+  width: 225px;
+  height: 19.85px;
+  left: 80%;
+  top: 2190px;
+  font-weight: 500;
+  font-size: 12.5px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;  
+  color: #8C8C94;
+}
+
+/*///////// PSEUDO ////////*/
+
+#Boton7:hover {
+  background: #8B48BF;
+  color: #FFFFFF;
+}
+
+#Boton6:hover {
+  color: #8B48BF;
+  background:#ffffff;
+
+}
+
+button:hover {
+  background: #FFFFFF;
+  color: #8B48BF;
+}
+
+button p:hover {
+  color: #8B48BF;
+  
+}
+
+ li a:hover {
+  font-size: 20px ;
+  color: blueviolet;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1198px) {
+  #Buscador {
+      display: flex;
+      position: absolute;
+      align-items: center;
+      width: 200px;
+      height: 48px; 
+      left: 800px;
+      top: 2100px
+    } 
+    
+    #Copy {
+      width: 225px;
+      height: 19.85px;
+      left: 70%;
+      top: 2190px;      
+    }
+}
+
+@media (max-width: 1034px) {
+  #Buscador {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 200px;
+    height: 48px; 
+    left: 720px;
+
+}
+
+}
+
+@media (max-width: 980px) {
+
+  #NavBar {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;   
+  }
+
+  #Home {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #HomePrincipal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #HomeIzquierda {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    background: #3CDDF3;
+  }
+
+  #Trabajo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+  }
+
+  .T1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 390px;
+  }
+  
+  #Testimonios {
+    display: flex;
+    flex-direction: column;
+    padding-top: 355px;
+  }
+
+  #ParteInferior {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  #Footer {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+  }
+
+  #Trabajo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #Navegacion {
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+  }
+
+  #Buscador {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 400px;
+    left: 270px;
+    height: 48px;
+    top: 3230px;
+  }
+
+  #Redes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    left: 360px;
+    top: 3450px;
+  }
+
+  #Logo3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 140.68px;
+    height: 25px;
+    left: 365px;
+    top: 3500px;
+  }
+  
+  #Copy {
+    width: 225px;
+    height: 19.85px;
+    left: 345px;
+    top: 3570px;
+  }
+}
+
+@media (max-width: 830px){
+  #Buscador {
+    left: 230px;
+    top: 3260px;
+  }
+
+  #Redes {
+    left: 330px;
+    top: 3490px;
+  }
+
+  #Logo3 {
+    left: 350px;
+    top: 3540px;
+  }
+  
+  #Copy {
+    left: 320px;
+    top: 3590px;
+  }
+
+}
